@@ -1,0 +1,55 @@
+<html>
+   <head>
+      <title>Register</title>
+      <!--css-->
+        <style>
+          .log {
+            background-color: #E0E0E0;
+            color: white;
+            margin: 10px;
+            margin-left: 400px;
+            margin-right:300px;
+            margin-top: 100px;
+            padding: 25px;
+            color: Black;
+          }
+
+
+          </style>
+          <!--stylesheet ends-->
+   </head>
+   <!--body starts-->
+   <body>
+     <!--Form starts-->
+     <form action="">
+       <!--division-->
+       <div class="log">
+         <h1><center>Registration Form</center></h1>
+         <!--text input-->
+         <center>firstName: <input type="text" name="fname"  ><br><br>
+         LastName: <input type="text" name="lname" ><br><br>
+         UserName: <input type="text" name="uname" ><br><br>
+         <!--passowrd type-->
+         Password: <input type="password" name="pwd" ><br><br>
+         <!--email type-->
+         Email_id: <input type="email" name="email" ><br><br>
+         MobileNo: <input type="text" name="mob" ><br><br>
+         <!--drop down-->
+         City:     <select name="place">
+                      <option value="Kottayam">Kottayam</option>
+                      <option value="Thrissur">Thrissur</option>
+                      <option value="Ernakulam">Ernakulam</option>
+                  </select>
+                  <!--drop down ends-->
+                </center>
+
+         <br>
+<!--button input-->
+          <center> <input type="button" name="submit" value="Register" onclick="alert('Successfully Registered')" style="font-size:10pt;color:white;background-color:green;padding:7px"></centre><a href="http://localhost/login/login.html">Back To Home</a>
+     </div>
+       <!--division ends-->
+     </form>
+     <!--form ends-->
+   </body>
+   <!--body ends-->
+</html>
