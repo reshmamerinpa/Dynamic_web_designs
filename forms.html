@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <title>Forms</title>
+  </head>
+  <body>
+    <!--Form STARTS-->
+     <form  action="#" method="post">
+        <!--Fieldset starts-->
+         <fieldset>
+          <legend>Your Details</legend>
+            Name: <input type="text" name="name"><br><br>
+            Email: <input type="text" name="email"><br>
+        </fieldset><br>
+          <!--fieldset ends-->
+          <fieldset>
+            <legend>Your Review:</legend><br>
+            How did you hear about us?
+            <!--dropdown stars-->
+            <select  name="media">
+                 <option value="Google">Google</option>
+                 <option value="Whatsapp">Whatsapp</option>
+                 <option value="Friends">Friends</option>
+            </select>
+            <!--dropdown ends-->
+            <br><br>
+            would you visit again?<br>
+                <input type="radio" name="yes" checked="checked">Yes
+                <input type="radio" name="yes" >No
+                <input type="radio" name="yes" >Maybe<br><br>
+                Comments:<br>
+                <!--textarea-->
+                 <textarea name="comments" rows="3" cols="30">
+                </textarea><br><!--textarea ends-->
+                <!--checbox-->
+                <input type="checkbox" name="confirm">Sign me up for email updates
+              <br>  <input type="submit" name="submit">
+              <!--checkbox ends-->
+          </fieldset>
+
+    </form>
+    <!--form ends-->
+  </body>
+  <!--body ends-->
+</html>
