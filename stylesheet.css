@@ -1,0 +1,74 @@
+body{
+
+background-image:url("rose.jpeg");
+background-repeat:no-repeat;
+background-size:100% 100%;
+}
+.main{
+background-color:white;
+width:25%;
+height:50%;
+margin:10% auto;
+border-radius:20%;
+box-shadow:0px 11px 35px 2px;
+box-shadow:10%;
+}
+.sign
+{
+margin-left:40%;
+
+padding-top:10%;
+color:red;
+font-family:'ubuntu' sans-serif;
+font-weight:bold;
+
+}
+.un{
+letter-spacing:1px;
+font-family:'ubuntu' sans-serif;
+margin-left:15%;
+color:rgb(35,50,56);
+font-weight:700;
+font-size:14px;
+background:rgba(136,126,126,0.14);
+padding:10px 20px;
+border-radius:10px;
+outline:none;
+box-sizing:border-box;
+border:2px solid rgba(0,0,0,0.02);
+text-align:center;
+
+}
+
+.submit{
+cursor:pointer;
+color:#fff;
+width:45%;
+height:10%;
+background-color:#e34d7d;
+font-family:'ubuntu' sans-serif;
+background:linear-gradient(to right,#ed5f83,#eba7b8 );
+border:0;
+outline:none;
+font-size:18px;
+margin-left:30%;
+padding:10px;
+outline:none;
+border-radius:100px;
+box-sizing:border-box;
+border:2px solid rgba(0,0,0,0.02);
+
+
+}
+.submit:hover{
+
+background-image:none !important;
+background-color:#ff4d88;
+
+}
+a{
+text-shadow:0px 0px 3px;
+color:black;
+text-decoration:none;
+margin-left:35%;
+}
