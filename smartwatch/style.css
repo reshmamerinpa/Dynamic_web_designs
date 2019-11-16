@@ -1,0 +1,128 @@
+.bd{
+    position: absolute;
+    left: 20%;
+    top: 25%;
+    border-radius: 10%;
+    text-align:center;
+    width:17%;
+    height:280px;
+    background-color:white;
+    border: 15px solid #555b57;
+
+}
+.up{
+    position: absolute;
+    left: 25%;
+    top: 3%;
+    border-radius: 10%;
+    text-align:center;
+    width:10%;
+    height:150px;
+    background-color:#555b57;
+}
+.down{
+    position: absolute;
+    left: 25%;
+    top: 70%;
+    border-radius: 10%;
+    text-align:center;
+    width:10%;
+    height:150px;
+    background-color:#555b57;
+}
+.music{
+  position: absolute;
+  left: 7%;
+  top: 2%;
+  font-size: 137%;
+  color: black;
+}
+.tim{
+  position: absolute;
+  left: 76%;
+  top: 10%;
+  font-size: 137%;
+  color: black;
+}
+.far{
+  position: absolute;
+  left: 14%;
+  top: 25%;
+}
+.far:hover {
+
+	background-color: blue;
+}
+#vedio{
+  position: absolute;
+  left: 45%;
+  top: 25%;
+}
+#vedio:hover{
+  	color: blue;
+}
+.fa{
+  position: absolute;
+  left: 70%;
+  top: 25%;
+}
+.fa:hover{
+  	color: blue;
+}
+#pause{
+  color:black;
+  position: absolute;
+  left: 45%;
+  top: 74%;
+}
+#back{
+
+  color: black;
+  position: absolute;
+  left: 17%;
+    top: 74%;
+}
+#forword{
+  color: black;
+position: absolute;
+left: 70%;
+top: 74%;
+  color: black;
+}
+#demo1{
+  position: absolute;
+  left: 10%;
+  top: 74%;
+  width:10%;
+  height: 0em;
+}
+#image{
+  position: absolute;
+  left: 24%;
+  top: 31%;
+  color: black;
+}
+#msg{
+    position: absolute;
+    top:  20%;
+    left: 29%;
+  color:black;
+}
+#timer{
+  position: absolute;
+  top:  30%;
+  left: 20%;
+color:black;
+}
+#Start{
+  background-color: black;
+  color: white;
+}
+#Stop{
+  background-color: black;
+  color: white;
+}
+#clear{
+  background-color: black;
+  color: white;
+}
