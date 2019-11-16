@@ -1,0 +1,108 @@
+
+.main{
+ margin-left: 30px;
+}
+.bgimg
+{
+  float: right;
+}
+.txt{
+
+    margin-top: 100px;
+  position: absolute;
+}
+.txt2{
+   margin-top:  15%;
+     position: absolute;
+}
+h3
+{
+ margin-top:30%;
+}
+.text{
+
+  padding-left: 302px;
+  position: absolute;
+}
+.project
+{
+  border: 2px solid #F0F0F0;
+  background-color:#F5F5F5;
+  padding: 2%;
+  width: 63%;
+}
+label
+{
+  margin-left:880px;
+  margin-top:410px;
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   padding-top: 50px;
+
+}
+.ann{
+  margin-left: 880px;
+  margin-top:503px;
+  height: 25%;
+   width: 27%;
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   border: 2px solid #F0F0F0;
+   background-color:#F5F5F5;
+   padding-top: 50px;
+   padding-left: 10px;
+   color:black;
+}
+.btn{
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+}
+.course{
+  margin-top: 0%;
+position: absolute;
+}
+.skill{
+  margin-left: 780px;
+  margin-top:850px;
+  height: 60%;
+   width: 32%;
+   position: absolute;
+   z-index: 1;
+   top: 0;
+   left: 0;
+   border: 2px solid #F0F0F0;
+   background-color:white;
+   padding-top: 20px;
+   padding-left: 10px;
+   color:black;
+}
+.bottom{
+  margin-top: 500px;
+}
+.face{
+ margin-top:60px;
+ margin-left: 90px;
+}
+.bottom-right{
+  margin-top:2px;
+  margin-left: 800px;
+  width:11%;
+}
+.bottom-right2{
+  margin-top: 0%;
+  margin-left: 40%;
+  width:10%;
+  float:right;
+  padding-left: 20px;
+}
+.foot{
+  margin-left: 500px;
+}
+P{
+    margin-left: 400px;
+}
