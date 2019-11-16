@@ -1,0 +1,11 @@
+.main{
+  margin-left: 20%;
+  margin-top:3%;
+  height: 650px;
+  width:300px;
+  padding-left: 5%;
+  background-color: gray;
+  position: absolute;
+  color:black;
+  padding-top: 3%;
+}

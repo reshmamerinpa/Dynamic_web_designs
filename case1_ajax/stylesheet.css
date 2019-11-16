@@ -1,0 +1,31 @@
+.summer{
+  margin-left: 10%;
+  width: 300px;
+  height: 350px;
+  color :black;
+  position: absolute;
+}
+button{
+  width: 100px;
+  height: 30px;
+  background-color: white;
+  color: black;
+}
+.winter{
+  margin-left: 40%;
+  width: 300px;
+  height: 350px;
+  color :black;
+  position: absolute;
+}
+.homebar
+{
+  width:20%;
+  padding-left: 3%;
+  float: right;
+  padding-top: 3%;
+  padding-right: 20%;
+  background-image: url('bg-header.jpg');
+  text-decoration: none;
+  color: #C1C0A1;
+}

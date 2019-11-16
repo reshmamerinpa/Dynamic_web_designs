@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+  </head>
+  <body>
+    <div class="main">
+      Name:<br>
+      <input type="text" id="name" name="name" value="" placeholder="Enter Your Name" onblur="checkname()"><br>
+      <div id="nam">      </div><br>
+      Email:<br>
+      <input type="text" name="email" id="email" value="" placeholder="you@example.com" onblur="checkemail()"><br>
+        <div id="em">      </div><br>
+      Password<br>
+        <input type="password" id="pass" name="password" value="" ><br>
+          <div id="pwd">      </div><br>
+      Confirm Password<br>
+      <input type="password" id="cpass" name="cpassword" value="" onchange="validate()" ><br>
+        <div id="cpwd">      </div><br>
+        <span id='message'></span>
+            Birthday:<br>
+      <input type="date" id="bday" name="date" value="" onchange="age()"><br>
+        <div id="birth">      </div><br><br>
+         Short Bio(max 140 characters):<br>
+        <textarea rows="4" cols="30" id="bio" onkeyup="bio()" ></textarea><br><br>
+        <div id="sbio"> </div>
+        <input type="button" value="Register" name="button" onclick="validation()" >
+
+      </div>
+        <script src="JavaScript.js">
+
+        </script>
+
+
+  </body>
+</html>
